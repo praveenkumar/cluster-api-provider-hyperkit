@@ -1,0 +1,9 @@
+apiVersion: hyperkitproviderconfig.k8s.io/v1alpha1
+kind: HyperkitMachineProviderConfig
+metadata:
+  labels:
+    controller-tools.k8s.io: "1.0"
+  name: hyperkitmachineproviderconfig-sample
+spec:
+  # Add fields here
+  foo: bar
